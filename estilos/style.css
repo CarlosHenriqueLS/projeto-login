@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap');
+
+:root {
+    --cor1: #EDCB96;
+    --cor2: #1F363D;
+    --cor3: #;
+
+    --fonte-principal: 'Montserrat', sans-serif;
+}
+
+* {
+    font-family: var(--fonte-principal);
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: var(--cor2);
+
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#login {
+    background-color: white;
+
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.38);
+}
+
+section#login > div#imagem {
+    background: #1F363D url(../imagens/janela.jpg) no-repeat;
+    background-size: cover;
+
+    display: block;
+    height: 200px;
+}
+
+section#login > div#formulario{
+    padding: 13px;
+    display: block;
+}
