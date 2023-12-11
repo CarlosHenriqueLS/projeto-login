@@ -37,15 +37,15 @@ main {
 section#login {
     background-color: white;
 
-    width: 450px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.38);
 }
 
 section#login > div#imagem {
-    background: #1F363D url(../imagens/janela.jpg) no-repeat center ;
+    background: #1F363D url(../imagens/janela.jpg) no-repeat;
     background-size: cover;
 
     display: block;
